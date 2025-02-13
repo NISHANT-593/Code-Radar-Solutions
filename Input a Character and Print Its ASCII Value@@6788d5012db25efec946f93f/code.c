@@ -1,9 +1,10 @@
 #include<stdio.h>
 int main(){
-    char c; int converted;
-    scanf("%c",&c);
+    char co;
+    int converted;
+    scanf("%c",&co);
     int converted= (int)c;
     printf(" ASCII Value: %d",converted);
 
-
+return 0;
 }
