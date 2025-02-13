@@ -3,7 +3,6 @@ int main(){
     float num;
     float a;
     scanf("%f%f",&num,&a);
-    Product=num*a;
-    printf("Product :%f", Product);
+    printf("Product :%f",num ,a);
     return 0;
 }
