@@ -2,6 +2,6 @@
 int main(){
     float a;
     scanf("%f",&a);
-    printf("product: d%",a);
+    printf("Product: d%",a);
     return 0;
 }
