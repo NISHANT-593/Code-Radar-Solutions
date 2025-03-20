@@ -1,11 +1,7 @@
 #include<stdio.h>
 int main(){
-    int num1 , num2 ,x;
-    scanf("%d %d %d",&num1 ,&num2,&x);
-    if (num1 >= x && num2 >= x){
-        printf("True\n");
-    }else{
-        printf("False");
-    }
+    int num1 , num2 ;
+    scanf("%d %d ",&num1 ,&num2,);
+    printf((num1 >= 0 && num2 >= 0)? "True\n","False");
     return 0;
-}
+} 
