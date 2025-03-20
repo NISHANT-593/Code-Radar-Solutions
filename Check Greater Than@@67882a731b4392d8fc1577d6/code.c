@@ -1,9 +1,9 @@
 #include<stdio.h.>
 int main()
 {
-    int a;
-    int b;
-    scanf("%d ,%d" ,&a ,&b)
-    printf("%d \n ", a < b );
+    int num1;
+    int num2;
+    scanf("%d ,%d" ,&num1 ,&num2)
+    printf("%d \n ", num1 < num2 );
     return 0;
 }
