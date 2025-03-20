@@ -1,6 +1,9 @@
 #include<stdio.h.>
 int main()
 {
-    printf("%d \n ", 10 > 20);
+    int a;
+    int b;
+    scanf("%d %d" ,&a ,&b)
+    printf("%d \n ", a > );
     return 0;
 }
