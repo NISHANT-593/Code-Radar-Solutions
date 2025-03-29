@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main() {
     int num ;
-    scaanf("%d" ,&num);
+    scanf("%d" ,&num);
     if (num & 1){
         printf("Set\n");
     }else{
