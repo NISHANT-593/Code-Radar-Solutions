@@ -1,5 +1,5 @@
 #include<stdio.h>
-int main {
+int main() {
     int num =a;
     int lsb =num &1;
     if (lsb ==1){
