@@ -1,0 +1,10 @@
+#include<stdio.h>
+int main(){
+    int num , n;
+    scanf("% d %d",&num ,&n);
+    if ((num >> n)& 1){
+        printf("6\n");
+    }else{
+        printf("5");
+    }
+}
