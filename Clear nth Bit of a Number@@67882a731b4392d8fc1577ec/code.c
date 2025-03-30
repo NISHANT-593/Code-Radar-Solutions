@@ -1,11 +1,4 @@
-#include<stdio.h>
-int main(){
-    int num , n;
-    scanf("% d %d",&num ,&n);
-    if( num & (~(1<<(n - 1)))){
-    printf("6\n");
-    }else{
-        printf("5");
-    }
-    }
-
+int clearBit(int N, int K) {
+    return (N & (~(1 << (K - 1))));
+    printf("%d %d: %d\n", N, K, clearBit(N, K));
+}
