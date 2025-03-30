@@ -1,8 +1,7 @@
 #include<stdio.h>
-int main(){
-    int num;
-    scanf("%d",&num);
-    if (num & 1){
+ void checkMSB (int num){
+    int mask =1  <<31;
+    if (num & mask){
         printf("Set\n");
     }else{
         printf("Not Set");
