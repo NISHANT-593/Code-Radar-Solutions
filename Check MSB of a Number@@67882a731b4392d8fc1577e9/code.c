@@ -3,7 +3,7 @@ int main(){
     int num;
 scanf("%d",&num);
 if(num << 31){
-    print("Set\n");
+    printf("Set\n");
 }else{
     printf("Not Set");
 }
