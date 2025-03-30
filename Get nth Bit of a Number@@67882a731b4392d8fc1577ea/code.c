@@ -3,8 +3,8 @@ int main(){
     int num , n;
     scanf("%d %d",&num ,&n);
     if ((num >> n)&1){
-        printf("num")
+        printf("1\n");
     }else{
-        printf("n")
+        printf("0");
     }
 }
