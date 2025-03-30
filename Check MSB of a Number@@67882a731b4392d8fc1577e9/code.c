@@ -1,11 +1,10 @@
 #include<stdio.h>
-int main()
- void checkMSB (int num){
-    int mask =1  <<31;
-    if (num & mask){
-        printf("Set\n");
-    }else{
-        printf("Not Set");
-        
-    }
+int main(){
+    int num;
+scanf("%d",&num);
+if(num << 31){
+    print("Set\n");
+}else{
+    printf("Not Set");
+}
 }
