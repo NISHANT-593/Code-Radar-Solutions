@@ -4,9 +4,9 @@ int main(){
     int num2;
     scanf("%d %d",&num1 ,&num2);
     if (num1 > num2){
-        printf("num1\n");
+        printf("5\n");
     }else{
-        printf("num2");
+        printf("10");
     }
     return 0;
 }
