@@ -4,7 +4,7 @@ int main(){
     scanf("%d",&num1);
     if(num1 <= 0 ){
         printf("Negative\n");}
-       if (num1 <= 0){
+       if (num1 = 0){
             printf("Zreo\n");
        }
     else{
