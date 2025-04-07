@@ -5,7 +5,7 @@ int main(){
     if(num1 == -num1 ){
         printf("Negative\n");
         (num1 == 0){
-            printf("Zreo\n")
+            printf("Zreo\n");
         }
     }else{
         printf("Positive");
