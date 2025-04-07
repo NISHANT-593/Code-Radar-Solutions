@@ -4,9 +4,12 @@ int main(){
     scanf("%d",&num1);
     if(num1 <= 0 ){
         printf("Negative\n");}
+    if (num1>=0){
+        printf("Positive\n");
+    }
        
     else{
-        printf("Positive");
+        printf("Zero");
     }
     return 0;
 }
