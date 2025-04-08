@@ -1,10 +1,12 @@
 #include <stdio.h>
 int main(){
-    int a,b,c;
-    scanf("%d %d %d",&a,&b,&c);
-    if((a+b>c)&&(a+c>b)&&(b+c>a)){
-        printf("Valid");
+    int n1,n2,n3;
+    scanf("%d %d %d",&n1,&n2,&n3);
+    if((n1+n2>n3)&&(n2+n3>n1)&&(n3+n1>n2)){
+        printf("Valid\n")
     }
+    
+    
     else{
         printf("Invalid");
     }
