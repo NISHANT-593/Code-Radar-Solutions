@@ -1,8 +1,16 @@
 #include<stdio.h>
 int main(){
-    int sum = a,b,c,;
+    int  a,b,c,;
     scanf("%d %d %d %d",&a,&b,&c);
-    sum =(a+b+c);
-    printf("%d\n",sum);
+    int max;
+    if(a>=b && a>=c){
+        max=a;
+    }else if(b>=a && b>=c){
+        max=b;
+    }else{
+        max = c;
+    }
+    printf("%d",max);
+   return 0;
     
 }
