@@ -1,14 +1,14 @@
 #include<stdio.h>
 int main(){
-    int  'a','b','c',;
-    scanf("%d %d %d %d",&a,&b,&c);
+    int  num1,num2,num3,;
+    scanf("%d %d %d %d",&num1,&num2,&num3);
     int max;
-    if('a'>='b' && 'a'>='c'){
-        max='a';
-    }else if('b'>='a' && 'b'>='c'){
-        max='b';
+    if(num1>=num2 && num1>=num3){
+        max=num1;
+    }else if(num2>=num1 && num2>=num3){
+        max=num2;
     }else{
-        max = 'c';
+        max = num3;
     }
     printf("%d",max);
    return 0;
