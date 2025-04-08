@@ -1,6 +1,6 @@
 #include<stdio.h>
 int main(){
-    int  num1,num2,num3,;
+    int  num1,num2,num3;
     scanf("%d %d %d %d",&num1,&num2,&num3);
     int max;
     if(num1>=num2 && num1>=num3){
