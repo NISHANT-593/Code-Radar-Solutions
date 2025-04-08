@@ -13,10 +13,11 @@ int main(){
     else {
         printf("Consonant\n");
 
-        
-    }else if (ch >= 0 && ch<=9){
+    }
+    else if (isdigit(ch)){
         printf("Digit\n");
-    }else{
+    }
+    else{
         printf("Special Character\n");
     }
     return 0;
